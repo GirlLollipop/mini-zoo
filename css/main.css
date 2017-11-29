@@ -1,0 +1,54 @@
+header {
+  text-align: center;
+  font-family: fantasy;
+  font-weight: bolder;
+  font-size: 30px;
+  color:blue;
+}
+
+img {
+margin: 15px;
+height: 400px;
+width: 400px;
+}
+
+select {
+  background-color: cyan;
+  border-color: indigo;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 5px;
+}
+
+select:hover {
+  background: blue;
+}
+
+.filter-bw {
+  filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+}
+
+.filter-sepia {
+  filter: sepia(80%);
+    -webkit-filter: sepia(80%);
+    -moz-filter: sepia(80%);
+}
+
+.filter-invertir{
+  filter: invert(100%);
+    -webkit-filter: invert(100%);
+    -moz-filter: invert(100%);
+}
+
+.menu {
+  text-align: center;
+}
+
+.animals {
+  display: inline-block;
+  text-align: center;
+  margin-top: 30px;
+}
